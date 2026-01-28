@@ -1,0 +1,10 @@
+.env
+/vendor
+storage/logs
+/storage/framework/*
+node_modules
+.DS_Store
+.idea
+*.log
+*.cache
+public/storage

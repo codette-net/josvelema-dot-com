@@ -1,0 +1,7 @@
+{
+    "require": {
+        "league/commonmark": "^2.8",
+        "symfony/yaml": "^6.0",
+        "illuminate/filesystem": "^9.52"
+    }
+}
