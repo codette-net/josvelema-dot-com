@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\http\Controllers\BlogController;
+use App\http\Controllers\PageController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +16,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('pages.home');
-});
+Route::get('/', [PageController::class, 'home'])->name('home');
+Route::get('/cv', [PageController::class, 'cv'])->name('cv');
+Route::get('/projects', [PageController::class, 'projects'])->name('projects');
+Route::get('/contact', [PageController::class, 'contact'])->name('contact');
+
+Route::get('/blog', [BlogController::class, 'index'])->name('blog.index');
+Route::get('/blog/{slug}', [BlogController::class, 'show'])->name('blog.show');
