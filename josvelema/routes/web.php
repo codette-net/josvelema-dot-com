@@ -23,3 +23,9 @@ Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 
 Route::get('/blog', [BlogController::class, 'index'])->name('blog.index');
 Route::get('/blog/{slug}', [BlogController::class, 'show'])->name('blog.show');
+
+Route::get('/feed.xml', [\App\Http\Controllers\FeedController::class, 'rss'])
+    ->name('feed.rss');
+Route::get('/sitemap.xml', [\App\Http\Controllers\SitemapController::class, 'index'])
+    ->name('sitemap');
+

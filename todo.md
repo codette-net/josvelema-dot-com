@@ -14,14 +14,14 @@ Week 1 : dinsdag → zaterdag (v1 live)
 ## dinsdag – Core afmaken (blog + infra)
 - [x] Controleren of blog posts correct laden
 - [x] Slug + route `/blog/{slug}` werkt
-- [ ] Draft posts worden niet getoond
-- [ ] Datum sorting (nieuwste eerst)
-- [ ] Blog index pagina toont:
-  - [ ] Titel
-  - [ ] Datum
-  - [ ] Excerpt
-- [ ] RSS feed `/feed.xml`
-- [ ] Sitemap `/sitemap.xml`
+- [x] Draft posts worden niet getoond
+- [x] Datum sorting (nieuwste eerst)
+- [x] Blog index pagina toont:
+  - [x] Titel
+  - [x] Datum
+  - [x] Excerpt
+- [x] RSS feed `/feed.xml`
+- [x] Sitemap `/sitemap.xml`
 - [ ] `<link rel="alternate" type="application/rss+xml">` in layout
 - [ ] Robots.txt toevoegen (minimaal)
 
