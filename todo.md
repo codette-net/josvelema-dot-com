@@ -12,8 +12,8 @@ Week 1 : dinsdag → zaterdag (v1 live)
 ---
 
 ## dinsdag – Core afmaken (blog + infra)
-- [ ] Controleren of blog posts correct laden
-- [ ] Slug + route `/blog/{slug}` werkt
+- [x] Controleren of blog posts correct laden
+- [x] Slug + route `/blog/{slug}` werkt
 - [ ] Draft posts worden niet getoond
 - [ ] Datum sorting (nieuwste eerst)
 - [ ] Blog index pagina toont:

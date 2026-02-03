@@ -9,16 +9,20 @@ use Illuminate\Support\Facades\Cache;
 use League\CommonMark\CommonMarkConverter;
 use League\CommonMark\Environment\Environment;
 use League\CommonMark\Extension\CommonMark\CommonMarkCoreExtension;
+use DateTimeInterface;
 
 final class BlogService
 {
     private CommonMarkConverter $md;
+    private Filesystem $fs;
 
     public function __construct(Filesystem $fs)
     {
+        $this->fs = $fs;
+
         $environment = new Environment([]);
         $environment->addExtension(new CommonMarkCoreExtension());
-        $this->fs = $fs;
+
 
         $this->md = new CommonMarkConverter([], $environment);
     }
@@ -134,4 +138,5 @@ final class BlogService
 
         return CarbonImmutable::now();
     }
+
 }

@@ -18,7 +18,7 @@ final class FrontMatter
         // ---
         // markdown body...
 
-        if (!str_starts_with($raw, "---\n")) {
+        if (!preg_match('/^\s*---\s*[\r\n]/', $raw)) {
             return ['meta' => [], 'body' => $raw];
         }
 
