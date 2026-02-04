@@ -7,7 +7,7 @@
         <h1>{{ $post->title }}</h1>
         <p><small>{{ $post->date->format('Y-m-d') }}</small></p>
 
-        <div class="prose">
+        <div class="prose prose-zinc max-w-none">
             {!! $post->html !!}
         </div>
 

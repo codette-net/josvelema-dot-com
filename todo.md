@@ -22,14 +22,14 @@ Week 1 : dinsdag → zaterdag (v1 live)
   - [x] Excerpt
 - [x] RSS feed `/feed.xml`
 - [x] Sitemap `/sitemap.xml`
-- [ ] `<link rel="alternate" type="application/rss+xml">` in layout
-- [ ] Robots.txt toevoegen (minimaal)
+- [x] `<link rel="alternate" type="application/rss+xml">` in layout
+- [x] Robots.txt toevoegen (minimaal)
 
 ---
 
 ## woensdag – Styling & content
-- [ ] Tailwind + Typography plugin actief
-- [ ] Markdown rendering ziet er oké uit (`prose`)
+- [x] Tailwind + Typography plugin actief
+- [x] Markdown rendering ziet er oké uit (`prose`)
 - [ ] Basis layout:
   - [ ] Navigatie
   - [ ] Max width

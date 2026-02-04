@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="alternate" type="application/rss+xml" title="josvelema.com RSS" href="{{ route('feed.rss') }}">
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
     <title>@yield('title', 'josvelema.com')</title>
 </head>
 <body>
