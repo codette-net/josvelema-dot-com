@@ -30,15 +30,15 @@ Week 1 : dinsdag → zaterdag (v1 live)
 ## woensdag – Styling & content
 - [x] Tailwind + Typography plugin actief
 - [x] Markdown rendering ziet er oké uit (`prose`)
-- [ ] Basis layout:
-  - [ ] Navigatie
-  - [ ] Max width
-- [ ] Homepagina:
-  - [ ] Korte intro (wie je bent)
-  - [ ] Link naar CV / Projects / Blog
-- [ ] CV pagina:
-  - [ ] Korte samenvatting
-  - [ ] Skills / stack
+- [x] Basis layout:
+  - [x] Navigatie
+  - [x] Max width
+- [x] Homepagina:
+  - [x] Korte intro
+    - [x] Link naar CV / Projects / Blog
+- [x] CV pagina:
+  - [x] Korte samenvatting
+  - [x] Skills / stack
 - [ ] Projects pagina:
   - [ ] Minstens 1–2 projecten
 - [ ] Contact pagina:

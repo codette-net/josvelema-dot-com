@@ -1,0 +1,11 @@
+.rj-gradient-smokey-white {
+    background: linear-gradient(to bottom, #fff8 0%,#e5e5e5 100%);
+}
+
+.rj-gradient-smokey-black {
+    background: linear-gradient(to bottom, #000000 0%,#1c1c1c 100%);
+}
+
+main {
+ height: 100vh;
+}
