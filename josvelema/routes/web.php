@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\http\Controllers\BlogController;
 use App\http\Controllers\PageController;
+use App\http\Controllers\ContactController;
 
 
 /*
@@ -29,3 +30,5 @@ Route::get('/feed.xml', [\App\Http\Controllers\FeedController::class, 'rss'])
 Route::get('/sitemap.xml', [\App\Http\Controllers\SitemapController::class, 'index'])
     ->name('sitemap');
 
+Route::get('/contact', [ContactController::class, 'show'])->name('contact');
+Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit');

@@ -41,8 +41,8 @@ Week 1 : dinsdag → zaterdag (v1 live)
   - [x] Skills / stack
 - [ ] Projects pagina:
   - [ ] Minstens 1–2 projecten
-- [ ] Contact pagina:
-  - [ ] E-mail of link naar socials
+- [x] Contact pagina:
+  - [x] E-mail of link naar socials
 
 ---
 
@@ -94,5 +94,5 @@ Week 1 : dinsdag → zaterdag (v1 live)
 - Images management
 - Admin / CMS
 - Comments
-```
+
 
